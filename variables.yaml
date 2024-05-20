@@ -1,0 +1,6 @@
+- name: Variables
+  hosts: localhosts
+  tasks:
+    - name: print information
+      ansible.builtin.debug:
+        msg: "Hi, We are learning Ansible from Trainer sivakumar,Duration is 120hrs"
